@@ -1,0 +1,67 @@
+html {
+  position: relative;
+}
+.jumbotron {
+  background-image: url('img/project/lake.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  height: 650px;
+  color: rgb(126, 125, 125);
+  padding-top: 150px !important;
+  overflow: hidden;
+}
+.tulisan, .card-text{
+  text-align: justify;
+}
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+.jumbotron h2, h4, p {
+  text-shadow: 1px 1px 6px rgb(146, 142, 142);
+}
+#about .container {
+  padding-top: 30px;
+  overflow: hidden;
+  box-shadow: inset;
+}
+#galeri{
+  padding-top: 30px;
+}
+
+#project, #contact {
+  background-color: rgb(240, 248, 254);
+  padding-top: 30px;
+}
+
+footer {
+  color: white;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+footer i {
+  font-size: 25px;
+}
+
+.nav:hover {
+  background-color: grey;
+  border-radius: 8px;
+}
+.fto {
+  width: 200px;
+  height: 250px;
+}
+#about, #project, #contact {
+  min-height: 480px;
+}
+
+.garis {
+  width: 110px;
+  border-top: 5px solid rgb(4, 0, 255);
+}
+#project img, #galeri img {
+  width: 354px;
+  height: 200px;
+}
